@@ -1,0 +1,17 @@
+.filter {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter p {
+  font-weight: 600;
+}
+
+.filter input {
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 5px;
+  border-color: rosybrown;
+}
