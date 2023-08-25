@@ -12,6 +12,7 @@ function ContactList({ contacts, filter, onBtnClick }) {
           <ul className={css.contact_list}>
             {renderingContacts.map(contact => {
               const { id, name, number } = contact;
+
               return (
                 <li className={css.contact_item} key={id}>
                   <Contact
